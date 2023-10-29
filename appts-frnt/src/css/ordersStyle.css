@@ -1,0 +1,102 @@
+/* Define styles for the table */
+table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  thead th {
+    background-color: #dbdfe0;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background-color: #dadada; /* Change the background color on hover */
+    transition: 0.2s;
+  }
+  
+  tbody td:hover {
+    background-color: #c7c8c9; /* Change the cell background color on hover */
+    transition:0.2s;
+  }
+  
+  /* Define styles for the color dots */
+  .dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .red {
+    background-color: rgb(204, 80, 80);
+  }
+  
+  .green {
+    background-color: rgb(52, 151, 52);
+  }
+  
+  .yellow {
+    background-color: rgb(223, 212, 62);
+  }
+  
+  .blue {
+    background-color: rgb(64, 64, 206);
+  }
+  .table-container {
+    font-size: small;
+  }
+
+  td.inner-td:hover {
+    background-color: white;
+  }
+
+  .DropDown-Size {
+    font-size: small;
+    font-weight: normal;
+    &:hover {
+      background-color: rgb(212, 214, 219);
+      transition:0.2s;
+    }
+  }
+
+  .dropdown-header {
+    font-size: medium;
+    background-color:  rgb(223, 223, 223);
+  }
+  
+  .dropdown-item {
+    &:hover {
+      background-color: rgb(212, 214, 219);
+      transition:0.2s;
+    }
+  }
+  .nav-item-OffC {
+    display: flex; 
+    align-items: center; 
+    margin: 10px 0;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid #ccc;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 20px; 
+  }
+  
+  .nav-item-OffC:hover {
+    background-color: #76a4d4;
+    color: #fff;
+  }

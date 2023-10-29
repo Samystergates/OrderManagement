@@ -1,0 +1,20 @@
+.hoverButton1 {
+    &:hover {
+      background-color: rgb(208, 209, 226);
+      transition:0.4s;
+    }
+  }
+
+  .hoverButton2 {
+    &:hover {
+      background-color: rgb(212, 219, 233);
+      transition:0.4s;
+    }
+  }
+
+  .orderPageHover {
+    &:hover {
+      background-color: rgb(223, 224, 224);
+      transition:0.3s;
+    }
+  }

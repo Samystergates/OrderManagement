@@ -1,0 +1,9 @@
+.table-hover tbody tr:hover {
+    background-color: #c3c3d8; /* Change the background color on hover */
+    cursor: pointer;
+  }
+  
+  .table-active {
+    background-color: #007bff !important; /* Change the background color when active */
+    color: #fff; /* Change the text color when active */
+  }
